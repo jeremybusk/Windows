@@ -8,4 +8,5 @@ sudo apt install woeusb
 # Remove if you don't need other software
 sudo add-apt-repository --remove ppa:nilarimogard/webupd8
 sudo apt update
+sudo woeusb --device local/of/my/windows-10-image.iso /dev/sdX
 ```
